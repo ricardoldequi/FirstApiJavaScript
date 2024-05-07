@@ -1,22 +1,29 @@
-# Desenvolvimento de uma API NodeJS com Banco MongoDB
+# Desenvolvimento de uma API NodeJS com Banco MongoDB por:
+- Livia Verlindo
+- Bruno Simionatto
+- Ricardo Dequi
 
-## Exemplo de código utilizado em Aula
 
 ## Libs utilizadas
 - Express
 - Typescript
 - Mongo DB
 - Mongoose
+- Jest - Babel
 
 
 ## Instalar dependencias
 
 ```
-yarn install
-``` 
+npm install
+```
 
 ## Executando o projeto 
 
 ```
-yarn start
-``` 
+npm start
+```
+## Executando o Script de testes Jest
+```
+npm test
+```
