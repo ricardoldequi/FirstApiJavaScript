@@ -1,5 +1,5 @@
-import request from 'supertest';
-import app from '../services/users.js';
+const app = require ('supertest');
+const request = require('services/users.js');
 
 describe('getUser', () => {
     it('mostra meus usuarios', async ()=>{

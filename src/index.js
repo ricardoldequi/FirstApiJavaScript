@@ -1,5 +1,4 @@
 import express from 'express'
-import mongoose from 'mongoose'
 import usersController from './controllers/users.js'
 import databaseConnection from './utils/database.js'
 
@@ -17,3 +16,5 @@ app.listen(port, async () => {
   await databaseConnection()
   console.log(`App running in http://localhost:${port}`)
 })
+
+export default app;
